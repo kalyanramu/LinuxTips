@@ -1,0 +1,10 @@
+1. How to add SSH Key to your computer so that you don't have to login everytime you push to Github:
+https://www.youtube.com/watch?v=H5qNpRGB7Qw
+
+2. Starter Git Code:
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/kalyanramu/carnd-behavioral.git
+(To reset existing origin: git remote set-url origin git@github.com:kalyanramu/carnd-behavioral.git)
+git push -u origin master
